@@ -1,0 +1,11 @@
+
+p, member, /auth, GET
+p, member, /auth/:id, GET
+
+p, admin, /auth, POST
+p, admin, /auth/:id, PUT
+p, admin, /auth/:id, DELETE
+
+g, admin, member
+g, shenyi, admin
+g, lisi, member
